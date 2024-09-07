@@ -2,7 +2,13 @@
 
 ## 1.1 [Introduction to Machine Learning](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/01-intro/01-what-is-ml.md)
 
-
+- Example: recommending a price for a car, given its properties such as: age, mileage, model, no. of doors, etc.
+- Patterns can be found in the data which can be modelled
+- Essence of ML: given data, have a model learn patterns in the data
+- Data consists of:
+    - Features: what we know about cars (i.e. its properties)
+    - Target: what we want to predict (i.e. its price)
+- User can provide information on a car they want to sell. This data is extracted. Price (target) is predicted and suggested to the user as an appropriate price.
 
 ## 1.2 [ML vs Rule-Based Systems](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/01-intro/02-ml-vs-rules.md)
 
