@@ -26,6 +26,23 @@ Alternatively, we can use Machine Learning. How do we do this? We get the data (
 
 ## 1.3 [Supervised Machine Learning](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/01-intro/03-supervised-ml.md)
 
+What is supervised Machine Learning?
+
+Regression, Classification, Ranking
+
+In the cars example in [1.1](#11-introduction-to-machine-learning) we provided the data and the target variable and the ML model learns the patterns in the data. These patterns can than be used to generalize to new samples. In e-mail spam example in [1.2](#12-ml-vs-rule-based-systems), we did exactly the same. When the target variable is given, this is known as _Supervised Machine Learning_.
+
+The _feature matrix_ is a twodimensional array in which the rows are our observations or _samples_ and the columns are _features_. It is designated with $\mathbf{X}$. The _target_ is a vector designated with $\mathbf{y}$. $\mathbf{X}$ is our input and $\mathbf{y}$ is our output.
+
+If we have a model g:
+$$
+g(\mathbf{X}) \approx \mathbf{y}
+$$
+
+For _regression_ (car price prediction), we predict the price of a car. $\mathbf{g}$ outputs a price.
+
+For _classification_ (spam classification), we predict the probability of an e-mail being spam. $\mathbf{g}$ outputs a 1 or 0 (whether it is spam or not).
+
 
 
 ## 1.4 [CRISP-DM](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/01-intro/04-crisp-dm.md)
