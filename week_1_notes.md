@@ -26,10 +26,6 @@ Alternatively, we can use Machine Learning. How do we do this? We get the data (
 
 ## 1.3 [Supervised Machine Learning](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/01-intro/03-supervised-ml.md)
 
-What is supervised Machine Learning?
-
-Regression, Classification, Ranking
-
 In the cars example in [1.1](#11-introduction-to-machine-learning) we provided the data and the target variable and the ML model learns the patterns in the data. These patterns can than be used to generalize to new samples. In e-mail spam example in [1.2](#12-ml-vs-rule-based-systems), we did exactly the same. When the target variable is given, this is known as _Supervised Machine Learning_.
 
 The _feature matrix_ is a twodimensional array in which the rows are our observations or _samples_ and the columns are _features_. It is designated with $\mathbf{X}$. The _target_ is a vector designated with $\mathbf{y}$. $\mathbf{X}$ is our input and $\mathbf{y}$ is our output.
@@ -43,13 +39,55 @@ For _regression_ (car price prediction), we predict the price of a car. $\mathbf
 
 For _classification_ (spam classification), we predict the probability of an e-mail being spam. $\mathbf{g}$ outputs a 1 or 0 (whether it is spam or not).
 
+For _classification_, besides _binary classification_ (spam or not spam) there can also be _multi-class classification_, where we are predicting a category out of more than 2 categories (e.g. cat, bird, dog, horse, etc.)
 
+_Ranking_ orders a list for your you by providing scores for each item. Recommender systems are based on this.
 
 ## 1.4 [CRISP-DM](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/01-intro/04-crisp-dm.md)
 
+_CRISP-DM_ is a methodology for organizing ML projects. It stands for Cross-Industry Standard Processing Data Mining. There are 6 steps.
 
+![CRISP-DM](image.png)
 
-## 1.5 [The Modelling Step (Model Selection Process)](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/01-intro/05-model-selection.md)
+ML Project: understand the problem, collect the data, train the model, use it.
+
+We will use the spam detection example.
+
+E-mail &rarr; Model &rarr; spam / not spam.
+
+### Step 1: Business Understanding
+
+Goal is to identify the problem to solve. Understand if problem is important and how to measure success. Here we decide whether we need ML.
+
+Spam detection: users complain about spam. What is the extent of the problem? One users or many? Do we need ML? Define the goal: e.g. reduce amount of spam messages, reduce amount of complaints about spam. Goal should be measurable: reduce amount of spam messages by 50%.
+
+### Step 2: Data Understanding
+
+Make sure data is available, or what is missing, and how to collect/acquire it. 
+
+Spam detection: spam button. Is the data behind this button good enough? Is it reliable? Do we track it correctly? Is the dataset large enough? Do we need to get more data?
+
+### Step 3: Data Preparation
+
+The data needs to be transformed such that it can be used in the ML model. We may need to clean the data, extract features, build pipelines, convert into tabular form.
+
+### Step 4: Modeling
+
+We now have the data in the right format. We try different models and we pick the best one. For example logistic regression, decision tree, neural network, etc. We may need to go back to data preparation to fix issues with the data or do more feature engineering.
+
+### Step 5: Evaluation
+
+Now we will assess how well the model is performing with respect to the goal we defines under Business Understanding. Have we reached the goal? Do our metrics improve? Did we solve/measure the right thing? Was the goal achievable? Do we need to update the goal?
+
+### Step 6: Deployment
+
+This step goes hand in hand with Evaluation. We deploy the model and monitor it when online. Usually we first deploy to a subset of users. 
+
+This process is typically iterated over based on learnings.
+
+It is a good idea to start simple and go quickly through all the steps. Then you iterate to introduce further improvements.
+
+## 1.5 [The Modeling Step (Model Selection Process)](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/01-intro/05-model-selection.md)
 
 
 
