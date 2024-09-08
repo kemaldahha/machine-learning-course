@@ -93,10 +93,32 @@ It is a good idea to start simple and go quickly through all the steps. Then you
 
 ## 1.6 [Setting up the Environment](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/01-intro/06-environment.md)
 
+I am using WSL2. 
+
+I created a conda environment:
+
+```bash
+conda create -n ml-zoomcamp python=3.10
+```
+
+Then I activated it:
+
+```bash
+conda activate ml-zoomcamp
+```
+
+Subsequently I installed these libraries:
+
+```bash
+conda install numpy pandas scikit-learn seaborn jupyter
+```
+
+I had to install the VS Code Jupyter extension in WSL2.
 
 
 ## 1.7 [Introduction to NumPy](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/01-intro/07-numpy.md)
 
+Check the [Jupyter notebook](1_7_introduction_to_numpy.ipynb).
 
 
 ## 1.8 [Linear Algebra Refresher](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/01-intro/08-linear-algebra.md)
