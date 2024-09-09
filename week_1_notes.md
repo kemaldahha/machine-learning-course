@@ -135,6 +135,7 @@ Check the [Jupyter notebook](1_7_introduction_to_numpy.ipynb).
 
 ## 1.8 [Linear Algebra Refresher](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/01-intro/08-linear-algebra.md)
 
+Check the [Jupyter notebook](1_8_linear_algebra_refresher.ipynb).
 
 
 ## 1.9 [Introduction to Pandas](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/01-intro/09-pandas.md)
