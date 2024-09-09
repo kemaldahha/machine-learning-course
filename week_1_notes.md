@@ -95,13 +95,18 @@ Let's say we train in July using data $\mathbf{X}$ with output $\mathbf{y}$ and 
 
 So using the training data we get a model $g$ from training with $\mathbf{X}$ and $\mathbf{y}$.
 
-The validation data also has data $\mathbf{X_{v}}$ and $\mathbf{y_{v}}$. We can use our model to make predictions: $g(X_{v})=\mathbf{\hat{y}_{v}}$.
+The validation data also has data $\mathbf{X_v}$ and $\mathbf{y_v}$. We can use our model to make predictions: $g(X_v)=\mathbf{\hat{y}_v}$.
 
 The difference between $\mathbf{\hat{y}}$ and $\mathbf{y}$ is our accuracy. We can do this for various models such as logistic regression, decision tree, neural network, etc. and compare accuracies.
 
 The problem with this approach is that one of the models might have gotten lucky. In statistics this is called Multiple Comparison Problem. ML models are probabilistic, so we need to guard against this.
 
-To address this, we introduce a testing dataset. For example: 60% training, 20% validation, 20% test. The test data is hidden. We do the model selection: use $\mathbf{X}$ and $\mathbf{y}$ to get model $g$. We validate it by using model $g$ and $\mathbf{X_{v}}$ to make predictions $\mathbf{\hat{y}_{v}}$. We select the best model. Then at the very end, we test the model to ensure it didn't get particularly lucky. It is basically an extra round of validation with $\mathbf{X_{t}}$ to make predictions $\mathbf{\hat{y}_{t}}$. The accuracy of the test data should be in line with the validation data.
+To address this, we introduce a testing dataset. For example: 60% training, 20% validation, 20% test. The test data is hidden. 
+We do the model selection: use $\mathbf{X}$ and $\mathbf{y}$ to get model $g$.
+We validate it by using model $g$ and $\mathbf{X_v}$ to make predictions $\mathbf{\hat{y}_v}$. We select the best model. 
+Then at the very end, we test the model to ensure it didn't get particularly lucky. 
+It is basically an extra round of validation with $\mathbf{X_t}$ to make predictions $\mathbf{\hat{y}_t}$. 
+The accuracy of the test data should be in line with the validation data.
 
 ## 1.6 [Setting up the Environment](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/01-intro/06-environment.md)
 
