@@ -145,6 +145,7 @@ Check the [Jupyter notebook](1_8_linear_algebra_refresher.ipynb).
 
 ## 1.9 [Introduction to Pandas](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/01-intro/09-pandas.md)
 
+Check the [Jupyter notebook](1_9_introduction_to_pandas.ipynb).
 
 
 ## 1.10 [Summary](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/01-intro/10-summary.md)
