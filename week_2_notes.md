@@ -20,6 +20,7 @@ Check the [Jupyter Notebook](2_2_data_preparation.ipynb).
 
 ## 2.3 [Exploratory data analysis](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/02-regression/03-eda.md)
 
+Check the [Jupyter Notebook](2_3_data_cleaning.ipynb).
 
 
 ## 2.4 [Setting up the validation framework](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/02-regression/04-validation-framework.md)
