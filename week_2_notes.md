@@ -15,12 +15,12 @@ This week walk through a car price prediction project. User wants to sell a car,
 
 ## 2.2 [Data preparation](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/02-regression/02-data-preparation.md)
 
-Check the [Jupyter Notebook](2_2_data_preparation.ipynb).
+Check the [Jupyter Notebook](week_2_notebook.ipynb#2.2-data-preparation).
 
 
 ## 2.3 [Exploratory data analysis](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/02-regression/03-eda.md)
 
-Check the [Jupyter Notebook](2_3_data_cleaning.ipynb).
+Check the [Jupyter Notebook](week_2_notebook.ipynb#2.3-exploratory-data-analysis).
 
 
 ## 2.4 [Setting up the validation framework](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/02-regression/04-validation-framework.md)
