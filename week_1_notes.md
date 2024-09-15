@@ -150,8 +150,9 @@ Check the [Jupyter notebook](1_9_introduction_to_pandas.ipynb).
 
 ## 1.10 [Summary](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/01-intro/10-summary.md)
 
-
+Summary of previous sections. No notes made.
 
 ## 1.11 [Homework](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/01-intro/homework.md)
 
+Pending homework release.
 
