@@ -6,7 +6,7 @@
       "type": "shell",
       "command": "git add . && git commit -m 'X' && git push",
       "problemMatcher": [],
-       "options": {
+      "options": {
         "cwd": "${workspaceFolder}"  // Ensures it only runs in your workspace folder
       },
       "group": {
