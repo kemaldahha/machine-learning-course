@@ -2,16 +2,16 @@ This repository contains my notes and the material I used to follow [Machine Lea
 
 Check my [Learn in Public log](https://github.com/kemaldahha/learn-in-public).
 
-| Notes | Homework | Status of Completion |
+| Week | Notes | Homework |
 | :-: | :-: | :-: |
-| [Week 1](week_1_notes.md) | [Week 1](week_1_homework.ipynb) | Completed |
-| [Week 2](week_2_notes.ipynb) | [Week 2](week_2_homework.ipynb) | Completed |
-| [Week 3](week_3_notes.ipynb) | Planned | Ongoing | 
-| Week 4 | Planned | 
-| Week 5 | Planned | 
-| Week 6 | Planned | 
-| Week 7 | Planned | 
-| Week 8 | Planned | 
-| Week 9 | Planned | 
-| Week 10 | Planned | 
-| Week 11 | Planned | 
+| 1 | [Completed](week_1_notes.md) | [Completed](week_1_homework.ipynb) |
+| 2 | [Completed](week_2_notes.ipynb) | [Completed](week_2_homework.ipynb) |
+| 3 | [Completed](week_3_notes.ipynb) | [Completed](week_3_homework.ipynb) | 
+| 4 | [Completed](week_4_notes.ipynb) | Planned | 
+| 5 | Planned | Planned | 
+| 6 | Planned | Planned | 
+| 7 | Planned | Planned | 
+| 8 | Planned | Planned | 
+| 9 | Planned | Planned | 
+| 10 | Planned | Planned | 
+| 11 | Planned | Planned | 
