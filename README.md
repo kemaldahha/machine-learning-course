@@ -14,4 +14,4 @@ Check my [Learn in Public log](https://github.com/kemaldahha/learn-in-public).
 | 8 | Planned | Planned | 
 | 9 | Planned | Planned | 
 | 10 | Planned | Planned | 
-| 11 | Planned | Planned | 
+| 11 | Planned | Planned |
