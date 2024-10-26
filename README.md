@@ -7,8 +7,8 @@ Check my [Learn in Public log](https://github.com/kemaldahha/learn-in-public).
 | 1 | [Completed](week_1_notes.md) | [Completed](week_1_homework.ipynb) |
 | 2 | [Completed](week_2_notes.ipynb) | [Completed](week_2_homework.ipynb) |
 | 3 | [Completed](week_3_notes.ipynb) | [Completed](week_3_homework.ipynb) | 
-| 4 | [Ongoing](week_4_notes.ipynb) | [Completed](week_4_homework.ipynb) |
-| 5 | Planned | Planned | 
+| 4 | [Completed](week_4_notes.ipynb) | [Completed](week_4_homework.ipynb) |
+| 5 | Ongoing | Planned | 
 | 6 | Planned | Planned | 
 | 7 | Planned | Planned | 
 | 8 | Planned | Planned | 
