@@ -1,11 +1,10 @@
-from fastapi import FastAPI
+from flask import Flask
 
-app = FastAPI()
+app = Flask("ping")
 
-@app.get("/ping")
-async def ping():
+@app.route("/ping", methods=["GET"])
+def ping():
     return "PONG"
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=9696)
+if __name__=="__main__":
+    app.run(debug=True, host="0.0.0.0", port="9696")
