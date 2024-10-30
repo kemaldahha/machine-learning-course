@@ -5,22 +5,24 @@ customer = {
     'gender': 'male',
     'seniorcitizen': 0,
     'partner': 'yes',
-    'dependents': 'yes',
-    'phoneservice': 'yes',
-    'multiplelines': 'no',
-    'internetservice': 'no',
-    'onlinesecurity': 'no_internet_service',
-    'onlinebackup': 'no_internet_service',
-    'deviceprotection': 'no_internet_service',
+    'dependents': 'no',
+    'phoneservice': 'no',
+    'multiplelines': 'no_phone_service',
+    'internetservice': 'dsl',
+    'onlinesecurity': 'no',
+    'onlinebackup': 'yes',
+    'deviceprotection': 'no',
     'techsupport': 'no_internet_service',
     'streamingtv': 'no_internet_service',
     'streamingmovies': 'no_internet_service',
-    'contract': 'two_year',
+    'contract': 'one_year',
     'paperlessbilling': 'no',
-    'paymentmethod': 'mailed_check',
-    'tenure': 12,
-    'monthlycharges': 19.7,
-    'totalcharges': 258.35
+    'paymentmethod': 'month-to-month',
+    'tenure': 4,
+    'monthlycharges': 190.7,
+    'totalcharges': 2580.35
  }
 
-print(requests.post("http://localhost:9696/predict", json=customer).text)
+host = "churn-serving-dev.eu-west-1.elasticbeanstalk.com"
+
+print(requests.post(f"http://{host}/predict", json=customer).text)
