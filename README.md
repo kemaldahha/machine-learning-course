@@ -10,8 +10,9 @@ Check my [Learn in Public log](https://github.com/kemaldahha/learn-in-public).
 | 4 | [Completed](week_4_notes.ipynb) | [Completed](week_4_homework.ipynb) |
 | 5 | [Completed](week_5_notes.ipynb) | [Completed](week_5_homework/week_5_homework.ipynb) |
 | 6 | [Completed](week_6_notes.ipynb) | [Completed](week_6_homework.ipynb) |
-| 7 | N/A | Midterm Project |
-| 8 | Planned | Planned | 
+| 7 | | |
+| 8 | Ongoing | Planned | 
 | 9 | Planned | Planned | 
 | 10 | Planned | Planned | 
-| 11 | N/A | Capstone Project |
+| 11 | | Capstone Project 1 |
+| 11 | | Capstone Project 2 |
