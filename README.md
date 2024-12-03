@@ -11,8 +11,8 @@ Check my [Learn in Public log](https://github.com/kemaldahha/learn-in-public).
 | 5 | [Completed](week_5_notes.ipynb) | [Completed](week_5_homework/week_5_homework.ipynb) |
 | 6 | [Completed](week_6_notes.ipynb) | [Completed](week_6_homework.ipynb) |
 | 7 | N/A | N/A |
-| 8 | [Ongoing](week_8_notes.ipynb) | Planned | 
-| 9 | Planned | Planned | 
+| 8 | [Completed](week_8_notes.ipynb) | [Completed](week_8_homework.ipynb) | 
+| 9 | Ongoing | Planned | 
 | 10 | Planned | Planned | 
 | 11 | N/A | Capstone Project 1 |
 | 11 | N/A | Capstone Project 2 |
