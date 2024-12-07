@@ -12,7 +12,7 @@ Check my [Learn in Public log](https://github.com/kemaldahha/learn-in-public).
 | 6 | [Completed](week_6_notes.ipynb) | [Completed](week_6_homework.ipynb) |
 | 7 | N/A | N/A |
 | 8 | [Completed](week_8_notes.ipynb) | [Completed](week_8_homework.ipynb) | 
-| 9 | Ongoing | Planned | 
+| 9 | [Ongoing](week_9_notes.ipynb) | Planned | 
 | 10 | Planned | Planned | 
 | 11 | N/A | Capstone Project 1 |
 | 11 | N/A | Capstone Project 2 |
